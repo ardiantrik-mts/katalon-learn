@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginFeature,Chrome 105.0.0.0,,,2022-09-14 12:07:21,2022-09-14 12:07:30,9.606s,PASSED
+,,,,,,,
+Test Cases/LoginFeature/SuccessLogin_TestCase,Chrome 105.0.0.0,,,2022-09-14 12:07:21,2022-09-14 12:07:30,9.435s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-14 12:07:21,2022-09-14 12:07:23,1.738s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 105.0.0.0,,,2022-09-14 12:07:23,2022-09-14 12:07:27,4.788s,PASSED
+"setText(findTestObject(""LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 105.0.0.0,,,2022-09-14 12:07:27,2022-09-14 12:07:29,1.335s,PASSED
+"setEncryptedText(findTestObject(""LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 105.0.0.0,,,2022-09-14 12:07:29,2022-09-14 12:07:29,0.394s,PASSED
+"click(findTestObject(""LoginPage_OrangeHRM/button_Login""))",Chrome 105.0.0.0,,,2022-09-14 12:07:29,2022-09-14 12:07:30,0.362s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-14 12:07:30,2022-09-14 12:07:30,0.591s,PASSED
