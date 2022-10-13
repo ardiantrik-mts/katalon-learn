@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_LoginOrangeHRM/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_LoginOrangeHRM/validation_usernameRequired'), 20)
 
 WebUI.closeBrowser()
 
